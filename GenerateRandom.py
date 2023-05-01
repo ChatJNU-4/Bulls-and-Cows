@@ -8,5 +8,3 @@ def gen_random():
         result.append(num[rand])
         num.remove(num[rand])
     return result
-
-print(gen_random())
